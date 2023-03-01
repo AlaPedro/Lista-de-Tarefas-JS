@@ -1,0 +1,95 @@
+* {
+    background-color: #ceffca;
+    margin          : 0;
+    padding         : 0;
+    box-sizing      : border-box;
+    font-family     : 'Courier New', Courier, monospace;
+}
+
+.container {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    margin-top    : 50px;
+    gap           : 10px;
+}
+
+#taskInputDiv {
+    padding-top: 50px;
+}
+
+#taskInputDiv input {
+    background-color: #fff;
+    border          : none;
+    border-radius   : 5px;
+    width           : 350px;
+    height          : 25px;
+    text-align      : center;
+}
+
+#taskInputDiv button {
+    background-color: #fff;
+    border          : none;
+    border-radius   : 5px;
+    width           : 100px;
+    height          : 25px;
+    cursor          : pointer;
+}
+
+#taskInputDiv button:hover {
+    background-color: #7bff9c;
+}
+
+.row {
+    display        : flex;
+    width          : 450px;
+    justify-content: center;
+    margin         : 0 auto;
+    padding        : 30px;
+}
+
+.row ul {
+    list-style-type: none;
+    display        : flex;
+    flex-direction : column;
+    gap            : 15px;
+    position       : relative;
+}
+
+li {
+    background : #fff;
+    font-weight: 500;
+}
+
+.row li {
+    width                     : 450px;
+    height                    : 30px;
+    padding-left              : 10px;
+    border-top-right-radius   : 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius    : 5px;
+    border-bottom-left-radius : 5px;
+    font-size                 : 20px;
+}
+
+.row button {
+    width                     : 30px;
+    border                    : none;
+    background                : #e9ab25;
+    border-top-right-radius   : 5px;
+    border-bottom-right-radius: 5px;
+    color                     : #fff;
+    cursor                    : pointer;
+    height                    : 30px;
+    position                  : absolute;
+    right                     : 0;
+}
+
+.done {
+    color     : #ffffff;
+    background: #ca9116;
+}
+
+.delete {
+    display: none;
+}
